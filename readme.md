@@ -10,7 +10,7 @@
 
 add the next line to the Gemfile
 
-    gem 'refinerycms-employees', git: "https://github.com/software-allies/refinerycms-employees.git"#:path => 'vendor/extensions'
+    gem 'refinerycms-employees', git: "https://github.com/software-allies/refinerycms-employees.git"
 
 and run the next lines in console
 
