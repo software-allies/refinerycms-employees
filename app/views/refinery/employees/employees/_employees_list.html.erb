@@ -1,0 +1,7 @@
+<% employees.each do |employee| %>
+  <div class="small-6 large-4 columns ">
+    <div class="avatar">
+       <%= link_to image_fu(employee.picture, "75x75")+"<p style='padding-top: 10px'>".html_safe+employee.first_name+"</p>".html_safe, refinery.employees_employee_path(employee), class: "circular" %>
+    </div>
+  </div>
+<% end %>
